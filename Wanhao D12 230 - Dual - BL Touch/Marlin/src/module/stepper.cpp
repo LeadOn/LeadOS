@@ -3865,53 +3865,30 @@ void Stepper::report_positions() {
     }
   }
 
-  // MS1 MS2 MS3 Stepper Driver Microstepping mode table
-  #ifndef MICROSTEP1
-    #define MICROSTEP1 LOW,LOW,LOW
-  #endif
-  #if ENABLED(HEROIC_STEPPER_DRIVERS)
-    #ifndef MICROSTEP128
-      #define MICROSTEP128 LOW,HIGH,LOW
-    #endif
-  #else
-    #ifndef MICROSTEP2
-      #define MICROSTEP2 HIGH,LOW,LOW
-    #endif
-    #ifndef MICROSTEP4
-      #define MICROSTEP4 LOW,HIGH,LOW
-    #endif
-  #endif
-  #ifndef MICROSTEP8
-    #define MICROSTEP8 HIGH,HIGH,LOW
-  #endif
-  #ifndef MICROSTEP16
-    #define MICROSTEP16 HIGH,HIGH,LOW
-  #endif
-
   void Stepper::microstep_mode(const uint8_t driver, const uint8_t stepping_mode) {
     switch (stepping_mode) {
-      #ifdef MICROSTEP1
+      #if HAS_MICROSTEP1
         case 1: microstep_ms(driver, MICROSTEP1); break;
       #endif
-      #ifdef MICROSTEP2
+      #if HAS_MICROSTEP2
         case 2: microstep_ms(driver, MICROSTEP2); break;
       #endif
-      #ifdef MICROSTEP4
+      #if HAS_MICROSTEP4
         case 4: microstep_ms(driver, MICROSTEP4); break;
       #endif
-      #ifdef MICROSTEP8
+      #if HAS_MICROSTEP8
         case 8: microstep_ms(driver, MICROSTEP8); break;
       #endif
-      #ifdef MICROSTEP16
+      #if HAS_MICROSTEP16
         case 16: microstep_ms(driver, MICROSTEP16); break;
       #endif
-      #ifdef MICROSTEP32
+      #if HAS_MICROSTEP32
         case 32: microstep_ms(driver, MICROSTEP32); break;
       #endif
-      #ifdef MICROSTEP64
+      #if HAS_MICROSTEP64
         case 64: microstep_ms(driver, MICROSTEP64); break;
       #endif
-      #ifdef MICROSTEP128
+      #if HAS_MICROSTEP128
         case 128: microstep_ms(driver, MICROSTEP128); break;
       #endif
 

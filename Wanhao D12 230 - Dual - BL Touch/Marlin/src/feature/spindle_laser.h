@@ -30,7 +30,9 @@
 
 #include "spindle_laser_types.h"
 
-#include "../libs/buzzer.h"
+#if HAS_BEEPER
+  #include "../libs/buzzer.h"
+#endif
 
 // Inline laser power
 #include "../module/planner.h"
@@ -283,7 +285,7 @@ public:
           if (!menuPower) menuPower = cpwr_to_upwr(SPEED_POWER_STARTUP);
           power = upower_to_ocr(menuPower);
           apply_power(power);
-        } else
+        } else 
           apply_power(0);
       }
 

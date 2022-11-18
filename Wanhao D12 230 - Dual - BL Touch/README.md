@@ -16,7 +16,7 @@ This branch is dedicated for the Wanhao D12 230 printer, with dual extruders, an
 
 Here are all features present in this firmware :
 
-- Based on Marlin 2.1.1 (Bugfix, release downloaded 11/16/2022)
+- Based on Marlin 2.1.1
 - Many more!
 
 ## Building LeaderOS
