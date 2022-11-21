@@ -10,6 +10,7 @@ LeaderOS is a project based on the [Marlin](https://github.com/MarlinFirmware/Ma
 
 ## Releases
 
-| Name                  | Release date | Version |
-| --------------------- | ------------ | ------- |
-| Ender 3 v2 - CR Touch | 11/16/2022   | 1.0.0   |
+| Name                             | Release date    | Version |
+| -------------------------------- | --------------- | ------- |
+| Ender 3 v2 - CR Touch            | 11/16/2022      | 1.0.0   |
+| Wanhao D12 230 - DUAL - BL Touch | En cours de Dev | 0.1     |
