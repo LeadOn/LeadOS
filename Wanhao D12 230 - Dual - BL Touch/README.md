@@ -17,6 +17,10 @@ This branch is dedicated for the Wanhao D12 230 printer, with dual extruders, an
 Here are all features present in this firmware :
 
 - Based on Marlin 2.1.1
+- S Curve applied to stepper motors, much more silenced
+- Auto Bed Leveling (Bilinear, 4 points)
+- Color UI by Marlin
+- Accelerated homing
 - Many more!
 
 ## Building LeaderOS
