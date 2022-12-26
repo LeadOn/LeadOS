@@ -16,7 +16,7 @@ This branch is dedicated for the Ender 3 v2, with an official CR Touch installed
 
 Here are all features present in this firmware :
 
-- Based on Marlin 2.1.1 (Bugfix, release downloaded 11/16/2022)
+- Based on Marlin 2.1.2
 - Using Jyers UI, made by Jacob Myers, in order to keep a Creality-like UI experience, but using features added by Marlin such as UBL
 - CR/BL Touch support (NOZZLE_TO_PROBE offset is set according to Creality's Ender 3 v2 Stock mounting bracket)
 - Multiplied probe speed
@@ -35,6 +35,7 @@ In order to build LeaderOS, please follow official Marlin's documentation (here 
 
 ## Changelog
 
-| Version                          | Release date | What's new     |
-| -------------------------------- | ------------ | -------------- |
-| [1.0](https://valentinvirot.fr/) | 11/16/2022   | First release. |
+| Version                            | Release date | What's new               |
+| ---------------------------------- | ------------ | ------------------------ |
+| [2.1.2](https://valentinvirot.fr/) | 12/26/2022   | Updated to Marlin 2.1.2. |
+| [1.0](https://valentinvirot.fr/)   | 11/16/2022   | First release.           |
