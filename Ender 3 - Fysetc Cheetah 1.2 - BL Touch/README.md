@@ -18,6 +18,7 @@ Here are all features present in this firmware :
 
 - Based on Marlin 2.1.2
 - BL Touch support
+- Advanced Pause Feature enabled
 - Multiplied probe speed
 - Bilinear Bed Leveling
 - Added Z Offset Wizard
