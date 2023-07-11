@@ -1,4 +1,4 @@
-<p align="center"><img src="../logo.png" height="250" alt="LeaderOS's logo" /></p>
+<p align="center"><img src="../../../logo.png" height="250" alt="LeaderOS's logo" /></p>
 
 <h1 align="center">LeaderOS 3D Printer Firmware</h1>
 
