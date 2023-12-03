@@ -1,8 +1,6 @@
-<p align="center"><img src="logo.png" height="250" alt="LeaderOS's logo" /></p>
+<p align="center"><img src="./images/logo.png" height="250" alt="LeaderOS's logo" /></p>
 
 <h1 align="center">LeaderOS 3D Printer Firmware</h1>
-
-<hr>
 
 ## LeaderOS
 
@@ -10,9 +8,9 @@ LeaderOS is a project based on the [Marlin](https://github.com/MarlinFirmware/Ma
 
 ## Releases
 
-| Name                                       | Release date    | Version |
-| ------------------------------------------ | --------------- | ------- |
-| Ender 3 v2 - Fysetc Cheetah 1.2 - CR Touch | 7/10/2023       | 2.1.2.1 |
-| Ender 3 v2 - CR Touch                      | 6/12/2023       | 2.1.2.1 |
-| Ender 3 - Fysetc Cheetah 1.2 - BL Touch    | 12/28/2022      | 2.1.2   |
-| Wanhao D12 230 - Dual - BL Touch           | En cours de Dev | 0.1     |
+| Name                                       | Release date | Version |
+| ------------------------------------------ | ------------ | ------- |
+| Wanhao D12 230 - Dual - BL Touch           | 03/12/2023   | 2.1.2.1 |
+| Ender 3 v2 - Fysetc Cheetah 1.2 - CR Touch | 7/10/2023    | 2.1.2.1 |
+| Ender 3 v2 - CR Touch                      | 6/12/2023    | 2.1.2.1 |
+| Ender 3 - Fysetc Cheetah 1.2 - BL Touch    | 12/28/2022   | 2.1.2   |
