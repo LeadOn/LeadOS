@@ -13,7 +13,7 @@ This branch is dedicated for the Ender 3, with the Fysetc Cheetah 1.2 board and 
 Here are all features present in this firmware :
 
 - Based on Marlin 2.1.2.1
-- BL Touch support
+- CR Touch support
 - Advanced Pause Feature enabled
 - Multiplied probe speed
 - Bilinear Bed Leveling
